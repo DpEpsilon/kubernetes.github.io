@@ -9,7 +9,7 @@ Authentication in Kubernetes can differ for different individuals.
 
 - A running kubelet might have one way of authenticating (i.e. certificates).
 - Users might have a different way of authenticating (i.e. tokens).
-- Administrators might have a list of certificates which they provide individual users.
+- Administrators might have a list of certificates which they provide to individual users.
 - There may be multiple clusters, and we may want to define them all in one place - giving users the ability to use their own certificates and reusing the same global configuration.
 
 So in order to easily switch between multiple clusters, for multiple users, a kubeconfig file was defined.
